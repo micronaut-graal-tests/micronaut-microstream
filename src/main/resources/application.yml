@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: microstream-graal
+microstream:
+  storage:
+    main:
+      root-class: 'example.micronaut.Data'
+      storage-directory: '/tmp/customer-data'
